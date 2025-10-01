@@ -1,2 +1,2 @@
-# ShopRight
-See what’s in stock nearby
+ShopRight
+See what's in stock nearby.

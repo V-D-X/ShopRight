@@ -1,0 +1,24 @@
+# Web scraping dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium==4.15.2
+
+# HTTP server dependencies
+flask==3.0.0
+flask-cors==4.0.0
+
+# Database dependencies
+sqlite3  # Built into Python
+sqlalchemy==2.0.23
+
+# Data processing
+pandas==2.1.4
+numpy==1.25.2
+
+# Optional: For more advanced scraping
+scrapy==2.11.0
+
+# Development and testing
+pytest==7.4.3
+black==23.11.0
