@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fake Store API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root { --card:#fafafa; --border:#eaeaea; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; line-height: 1.5; }
+      fieldset { border:1px solid var(--border); border-radius:12px; padding:1rem; max-width: 720px; }
+      label { display:block; margin:.5rem 0 .25rem; font-weight:600; }
+      input, select, button { font: inherit; padding:.5rem; }
+      #out { white-space: pre-wrap; background:var(--card); border:1px solid var(--border); padding:1rem; border-radius:8px; margin-top:1rem; overflow:auto; }
+      small { color:#555; }
+      .hidden { display:none; }
+    </style>
+  </head>
+  <body>
+    <h1>Fake Store API</h1>
+    <p>Pick a request and hit Run! To add your own, copy <code>`requests/myCall.template.js`</code> and edit 2-3 lines.</p>
+
+    <fieldset>
+      <label for="request">Request</label>
+      <select id="request"></select>
+
+      <button id="run">Run</button>
+    </fieldset>
+
+    <h2>Output</h2>
+    <div id="out">…</div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
