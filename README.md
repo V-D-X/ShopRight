@@ -1,21 +1,18 @@
 ## Getting Started
 
-1. Add the **Live Server** extension (by Ritwick Dey).
-2. Clone or fork this repo, then open the folder in VS Code.
-3. Right-click on `index.html` and choose **“Open with Live Server.”**
+1. Add the **Live Server** extension (by Ritwick Dey) using VS Code's Extensions tab.
+2. **Fork** this repo, then add your groupmate(s) as collaborators.
+3. In VS Code, right-click on `index.html` and choose **“Open with Live Server.”**
 4. Pick a request from the dropdown and click **Run.**
 
 You’ll see data from the Fake Store API appear on the page.
 
----
 
 ## What is an API?
 
 An API (Application Programming Interface) is a way for one program to talk to another; it abstracts away the complexity of how the system works and just gives you a clear set of requests you can make and responses you’ll get back.
 
 The Fake Store API is a REST API; that means it uses web URLs (like /products/5) and returns structured data (in JSON; not scary promise). When you pick a request and click Run, the app makes a REST request to the API, which responds with fake store data. The browser then displays that data for you.
-
----
 
 ## Adding Your Own Request
 
@@ -29,7 +26,6 @@ The Fake Store API is a REST API; that means it uses web URLs (like /products/5)
 
 Through the power of Live Server, your new request will now show up in the dropdown.
 
----
 
 ## Exploring the API
 
