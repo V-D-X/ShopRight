@@ -1,2 +1,1 @@
-ShopRight
-See what's in stock nearby.
+A web app that allows you to see what products are in stock nearby.
