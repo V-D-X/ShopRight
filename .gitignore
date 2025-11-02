@@ -1,0 +1,26 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+.pytest_cache/
+htmlcov/
+.nox/
+*.egg-info/
+.ipynb_checkpoints
+build/
+dist/
+
+# WebStorm/JetBrains IDE ignores
+.idea/
+*.iml
+*.iws
+*.ipr
